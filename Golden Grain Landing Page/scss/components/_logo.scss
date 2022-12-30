@@ -1,0 +1,21 @@
+@use "../abstracts/" as *;
+
+.logo {
+    display: grid;
+    grid-template-columns: 120px auto;
+    place-items: center;
+
+    .logo-img {
+        height: 140px;
+        width: 120px;
+        object-fit: cover;
+    }
+    .logo-title {
+        font-weight: $fw-regular;
+        color: $clr-white;
+    }
+    .logo-subtitle {
+        font-weight: $fw-regular;
+        color: $clr-white;
+    }
+}

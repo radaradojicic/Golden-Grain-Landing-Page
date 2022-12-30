@@ -1,0 +1,24 @@
+@use "../abstracts/" as *;
+.text-italic {
+    font-style: italic;
+}
+.text {
+    &-center {
+        text-align: center;
+    }
+    &-left {
+        text-align: left;
+    }
+    &-right {
+        text-align: right;
+    }
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fw-bold {
+    font-weight: $fw-bold;
+}
+.link-decoration {
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+@use "../abstracts/" as *;
+
+.footer {
+    background-color: $clr-green-500;
+    .footer-content {
+        justify-content: space-between;
+    }
+    
+
+    .social-icon {
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,8 @@
+@use "../abstracts/colors" as *;
+
+@mixin input () {
+    border: 1px solid $clr-green-900;
+    border-radius: 5px;
+    color: $clr-green-900;
+    background-color: $clr-white-baby;
+}

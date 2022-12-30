@@ -1,0 +1,16 @@
+@use "../abstracts/" as *;
+
+.text {
+    &-green {
+        color: $clr-green-500;
+    }
+    &-white {
+        color: $clr-white;
+    }
+    &-black {
+        color: $clr-black;
+    }
+}
+.bg-clr {
+    background-color: $clr-white-baby ;
+}

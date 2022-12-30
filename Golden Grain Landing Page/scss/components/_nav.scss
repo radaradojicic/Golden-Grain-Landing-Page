@@ -1,0 +1,12 @@
+@use "../abstracts/" as *;
+
+.nav {
+ 
+ 
+    .nav-link {
+        font-size: 2rem;
+        font-weight: $fw-bold;
+        color: $clr-white;
+        text-decoration: none;
+    }
+}

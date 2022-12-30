@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+
+.form {
+    /*width: fit-content;*/
+    place-items: baseline;
+}
+.placeholder {
+    padding: 10px 70px;
+    @include input ();
+    text-align: left;
+}

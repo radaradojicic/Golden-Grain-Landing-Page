@@ -1,0 +1,26 @@
+@use "../abstracts/" as *;
+.btn {
+    cursor: pointer;
+    padding: 20px 60px;
+    border-radius: 20px;
+    font-weight: $fw-bold;
+    border: 3px solid $clr-black;
+    &.btn-primary {
+        color: $clr-black;
+        background-color: $clr-green-100;
+    }
+    &.btn-primary-outline {
+        color: $clr-green-100;
+        background-color: transparent;
+        border: 3px solid $clr-green-100;
+    }
+}
+.form-btn {
+    cursor:pointer;
+    border: 1px solid $clr-green-900;
+    border-radius: 25px;
+    font-weight: $fw-regular;
+    background-color: $clr-green-900;
+    color: $clr-white;
+    padding: 10px 30px;
+}
